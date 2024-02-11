@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+  <title>My Repository #9</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://kit.fontawesome.com/f17c0ca758.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!--HEADING-->
+
+<header id="learning">  
+ <h1>Learning HTML</h1>
+</header>
+
+<!--HORIZONTAL NAVIGATION BAR-->
+
+<nav class="navbar">
+  <ul>
+    <li><a class="active" href="index-p.html" target="_self">HTML</a></li>
+    <li><a href="CSS-p.html" target="_self">CSS</a></li>
+    <li><a href="javascript-p.html" target="_self">Javascript</a></li>
+    <li><a href="forms-p.html" target="_self">HTML Forms</a></li>
+  </ul>
+</nav>
+
+<!--WEB PAGE CONTENT-->
+
+<section class="pagelink">
+  <h2>Getting Started</h2>
+  <p>Start out by creating a heading. See the "Learning HTML" and "Getting Started" headings above. <br /> 
+     Then add a paragraph.</p>
+  <p>We will start by discussing the following topics:</p>
+  <ul>
+   <li><a href="#links">HTML Links</a></li>
+   <li><a href="#images">Images</a></li>
+   <li><a href="#elements">Elements</a></li>
+   <li><a href="#attributes">Attributes</a></li>
+   <li><a href="#lists">Lists</a></li>
+   <li><a href="#iframes">HTML Iframes</a></li>
+  </ul>
+</section>
+  
+<article class="content">
+  <h3 id="links">HTML Links</h3>
+  <p>A link defines the relationship between two resources (or web pages) on the web.</p>
+  <p>HTML links are defined with the <code class="codespan">&lt;a&gt;</code> tag.</p>
+  <p>The link's destination is specified in the <b>"href"</b> attribute.</p>
+  <p>For more information on links check out <a href="https://protect-us.mimecast.com/s/6gQ7Cn5z19ClZAKnF9OxOO?domain=w3schools.com" target="_blank">w3schools</a>.</p>
+  <p><a href="#learning">Back to the top</a></p>
+</article>
+
+<article class="content">
+  <h3 id="images">Images</h3>
+  <p>The <code class="codespan">&lt;img&gt;</code></span> tag links an image to the web page.</p>
+  <p>Images enhance the visual appearance of your web page and is related to the Web Page's content.</p>
+  <p> For example, if I was writing an article on sunflowers or summer then I might use a picture like the one below: </p>
+  <figure>
+    <img src="images/sunflowers.jpg" alt="Sunflowers" width="395" height="350"  style="max-width:100%;height:auto;">
+    <figcaption>Fig. 1 - Sunflowers</figcaption>
+  </figure>
+  <p><a href="#learning">Back to the top</a></p>
+</article>
+
+<article class="content">
+  <h3 id="elements">Elements</h3>
+  <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+  <p><code class="codespan">&lt;tagname&gt;</code><span style="color:blue;font-weight:bold"> Content goes here... </span><code class="codespan">&lt;/tagname&gt;</code></p>
+  <p>The HMTL <strong>element</strong> is everything from the start tag to the end tag.</p>
+  <p><strong>NEVER skip the end tag</strong> even though some HTML elements display correctly without it.<br>
+     Forgetting the end tag is not a good practice, so let's develop good coding habits!</p>
+  <p><a href="#learning">Back to the top</a></p>
+
+</article>
+
+<article class="content">
+  <h3 id="attributes">Attributes</h3>
+  <p>HTML attributes provide additional information about HTML elements.</p>
+  <h4>Important things to know about attributes</h4>
+  <ul>
+    <li>All HTML elements can have <strong>attributes</strong></li>
+    <li>Attributes provide <strong>additional information</strong> about elements</li>
+    <li>Attributes are <strong>always</strong> specified in the start tag</li>
+    <li>Attributes usually come in name/value pairs like:  <strong>name="value"</strong></li>
+  </ul>
+  <p><a href="#learning">Back to the top</a></p>
+</article>
+
+<article class="content">
+  <h3 id="lists">Lists</h3>
+  <p>HTML lists allow you to group a set of related items in lists.  There are 3 types of lists.</p>
+  <h4>Unordered HTML List</h4>
+  <ul>
+    <li>Lindy Hop</li>
+    <li>Jitterbug</li>
+    <li>East Coast Swing</li>
+    <li>West Coast Swing</li>
+  </ul>
+
+  <h4>Ordered HTML List</h4>
+  <ol>
+    <li>Ballroom Dancing</li>
+    <li>Folk Dancing</li>
+    <li>Country-Western Dancing</li>
+    <li>Polka</li>
+  </ol>
+
+  <h4>HTML Description Lists</h4>
+  <dl>
+    <dt>Smooth Ballroom Dances</dt>
+    <dd>- Waltz</dd>
+    <dd>- Fox Trot</dd>
+    <dd>- Tango</dd>
+    <dd>- Viennese Waltz</dd>
+    <dt>Rhythm Ballroom Dances</dt>
+    <dd>- Cha-Cha</dd>
+    <dd>- Rumba</dd>
+    <dd>- Mambo</dd>
+    <dd>- Swing</dd>
+  </dl>
+  <p><a href="#learning">Back to the top</a></p>   
+</article>
+
+<article class="content">
+  <h3 id="iframes">HMTL Iframes</h3>
+  <p>An HTML iframe is used to display a web page within a webpage.</p>
+  <iframe src="workingwithiframes.html" name="iframe_a" style="height:300px;width:100%;border:5px solid red;" title="Iframe Example"></iframe>
+  <p><a href="https://w3schools.com/html/html_iframe.asp" target="iframe_a">HTML Iframes</a><br>Click to see how it works.</p>
+  <p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+  <p><a href="#learning">Back to the top</a></p>
+</article>
+
+<!-- <p><a href="https://www.w3schools.com/html/html_iframe.asp" target="_blank">w3schools</a></p> -->
+
+</section> 
+
+<footer>
+ <address>
+  Designed by Michelle Laswell<br />
+  Contact:  <a href="mailto:michelle.laswell@gmail.com">michelle.laswell@gmail.com</a>
+ </address>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  background-image: url("images/Daisy.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+/*RESPONSIVE LAYOUT -- MAKES COLUMNS AND BOXES STACK ON TOP OF EACH OTHER ON SMALL SCREENS*/
+@media (max-width: 600px) {
+ nav, article {
+  width: 100%:
+  height: auto:
+  }
+}
+
+
+/*STYLING THE HEADER*/
+
+header {
+  background-color: #ffcb47;
+  color: red;
+  opacity: 0.75;
+  padding:  30px;
+  text-align: center;
+  border: 5px solid #008349;
+  position: relative;   
+}
+
+a: link {
+   color: blue;
+   background-color: transparent;
+   text-decoration:  none;
+}
+
+a: visited {
+   color:  red;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+/*STYLING A HORIZONTAL NAVIGATION BAR*/
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008349;
+  border: 2px solid #ffcb47;
+}
+
+.navbar li {
+  float: left;
+  border-right: 2px solid #ffcb47;  
+}
+
+.navbar li a {
+  display: inline-block;
+  color: #ffcb47;
+  font-size: 18px;
+  text-align: center;  
+  padding: 20px 35px;  
+  text-decoration: none;      
+}
+
+.navbar a.active {
+  background-color: #c3e7bb;
+  color: #008349;
+}
+
+.navbar li a:hover {
+  background-color: #ffcb47;
+  color: #008349;
+  border: 3px solid #008349;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: yellow;
+  color: #008349;
+}
+
+/*STYLING A VERTICAL NAVIGATION BAR*/
+/*
+.navbar ul {
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: 
+  opacity: 0.8;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  border: 2px solid yellow;
+}
+
+.navbar li {
+  float: left;
+  border-right: 2px solid #ffcb47;  
+}
+
+.navbar li a {
+  display: block;
+  color:  yellow;
+  padding: 16px 26px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 2px solid yellow; 
+}
+*/
+
+/* INTRODUCTION TO THE PAGE WITH LINKS TO SECTIONS OF CONTENT */
+
+.pagelink {
+  display: block;
+  font-size: 20px;
+  background: white;
+  opacity:  0.8;
+  padding: 20px 30px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 15px double red;
+}
+
+.pagelink h2 {
+  text-align: center;
+}
+
+.pagelink li {
+  margin:3px;
+  padding: 3px;
+}
+
+.codespan {
+  background: #f9f334;
+  color:green;
+  font-weight:bold;
+  font-size:16px"
+}
+/*
+li a.active {
+  background-color: #ff132a; 
+}  
+
+li a:hover {
+  background-color: #f08e13;
+  color: #e3ff76;
+}
+*/
+
+h1 {
+    color: rgb(255,0,0);
+    font-family: "cooper black";
+    font-size: 62px;
+    
+}
+
+/* These were the original fonts for the headers:
+  h1 62px  6vw
+  h2 41px  3vw
+  h3 30px  2vw
+  h4 20px  1.25vw
+*/
+
+h2 {
+    color:rgb(255,0,0);
+    font-family: "ITC Souvenir";
+    font-size: 41px;
+}
+
+h3 {
+    color: rgb(255,0,0);
+    font-family: bookman;
+    font-size: 30px;
+}
+
+h4 {
+   color: rgb(255,0,0);
+   font-family: bookman;
+   font-size: 20px;  
+}
+
+  
+.content {
+  display: block;
+  background-color: #ffcb47;
+  opacity: 0.8;
+  font-family: bookman;
+  font-size: 16px;
+  margin: 10px;
+  border: 15px double #008349;
+  padding: 15px 50px;
+  float: right;
+  width: 72%;
+}
+
+/*
+.content {
+  display: block;
+  background-color: #ffcb47;
+  opacity: 0.8;
+  font-family: bookman;
+  font-size: 16px;
+  color:
+  position: absolulte;
+  right: 200px;
+  float:  right;
+  width: 1000px; 
+  border: 15px double #008349;
+  margin: 30px;
+  padding: 15px 50px;
+}  
+*/      
+          
+          /*outline: #008349 solid 10px;*/
+
+/*
+p.content {
+          
+}
+*/
+
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  background-color: #F1F1F1;
+  text-align: center;
+  width: 15%;
+  padding:  10px;
+  border: 2px solid red;
+  clear: left;
+}
+  
+  
+  text-align: center;
+}
